@@ -1,0 +1,73 @@
+:root {
+  --backgrund: #d5e1ef;
+  --blue: #2c7dfa;
+  --shade-blue: #3685ff;
+  --dark-navy: #1F314F;
+  --gray: #7d889e;
+  --light-gray: #d5e1ef;
+  --white: #ffffff;
+}
+
+body {
+  background: var(--backgrund);
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--dark-navy);
+}
+
+p {
+  font-style: var(--font-style);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  color: var(--light-gray);
+}
+
+.div {
+  width: 288px;
+  height: 129px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(50%);
+}
+
+.rectangle {
+  width: 320px;
+  height: 497px;
+  background: var(--white);
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+}
+
+.blue-rectangle {
+  width: 288px;
+  height: 288px;
+  background: var(--blue);
+  border-radius: 20px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+img {
+  width: 288px;
+  height: 288px;
+  border-radius: 20px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
