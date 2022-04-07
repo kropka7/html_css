@@ -1,6 +1,8 @@
 ## Challenge 1 - Frontend Mentor - QR code component
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [QR code component challenge on Frontend Mentor](https://github.com/kropka7/html_css/tree/main/qr-code-component)
+
+Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## The challenge
 
