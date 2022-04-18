@@ -352,12 +352,31 @@ MigrationBackup/
 ### Espresso ###
 *.esproj
 
-### macOS ###
-# General
+# OS generated files #
+######################
 .DS_Store
-.AppleDouble
-*.DS_Store
-.LSOverride
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files #
+###################
+*.bak
+*.swp
+*.swo
+*~
+*#
+
+# IDE files #
+#############
+.vscode
+.idea
+.iml
+*.sublime-workspace
 
 # Icon must end with two \r
 Icon
